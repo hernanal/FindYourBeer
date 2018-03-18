@@ -1,0 +1,140 @@
+body {
+    background: url(https://images.unsplash.com/photo-1436076863939-06870fe779c2?auto=format&fit=crop&w=1950&q=80);
+    /* https://images.unsplash.com/photo-1436018626274-89acd1d6ec9d?auto=format&fit=crop&w=1934&q=80  -- For the add brew view*/
+    /* https://images.unsplash.com/photo-1505075106905-fb052892c116?auto=format&fit=crop&w=1950&q=80  -- For the list view */
+    /* https://images.unsplash.com/photo-1438557068880-c5f474830377?auto=format&fit=crop&w=1953&q=80  -- For the success view after an entry*/
+    background-size: cover;
+    background-position: center;
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#landing_content {
+    text-align: center;
+    padding-top: 40%;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#landing_content h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 5em;
+}
+
+#images {
+    /* background: url(https://images.unsplash.com/photo-1505075106905-fb052892c116?auto=format&fit=crop&w=1950&q=80); */
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    z-index: -1;
+    left: 0;
+}
+
+#add_brew_image {
+    /* background: url(https://images.unsplash.com/photo-1501406538164-8dfdc80aa947?auto=format&fit=crop&w=1489&q=80);
+    background-size: cover; */
+    /* background-position: center; */
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    z-index: -1;
+    left: 0;
+}
+
+.brew_list {
+    border-radius: 25px; 
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    width: 100%;
+    color: white;
+}
+
+.add_brew {
+    border-radius: 25px; 
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    width: 72%;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.brew_list_bkd {
+    z-index: 10;
+    margin: auto;
+    /* width: 34%; */
+    padding-top: 13%;
+}
+
+.Modal {
+    position: absolute;
+    top: 100px;
+    left: 280px;
+    right: 280px;
+    bottom: 100px;
+    background-color: whitesmoke;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.inputStyle {
+    padding-right: 10px;
+}
+
+.add_brew-centerAlign {
+    margin: auto;
+    width: 30%;
+}
+
+.tableStyle {
+    font-family: 'Lora', serif;    
+}
+
+.brew_image {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#brew_detail {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: lightgrey; */
+}
+
+.checkBox-hide {
+    display: none;
+}
+
+.checkBox-show {
+    display: inherit;
+}
+
